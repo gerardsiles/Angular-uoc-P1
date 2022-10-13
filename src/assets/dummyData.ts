@@ -18,7 +18,7 @@ export const SONGS: Song[] = [
     author: 'Wiguez, MIDNIGHT CVLT',
     cover:
       'https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/001/200/325x325/cant-you-feel-it-1663671638-WIofNPTdIb.jpg',
-    group: 'Las gallinas turulecas',
+    group: 'Wiguez, MIDNIGHT CVLT',
     year: 2022,
     album: 'Love',
     bpm: 148,
@@ -30,7 +30,7 @@ export const SONGS: Song[] = [
     author: 'Crunr, BEAUZ',
     cover:
       'https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/001/195/325x325/illusion-feat-crunr-1662717639-KnMb0t9YDo.jpg',
-    group: 'Las gallinas turulecas',
+    group: 'Crunr, BEAUZ',
     year: 2022,
     album: "Ain't no one",
     genre: 'Future House',
@@ -66,7 +66,7 @@ export const SONGS: Song[] = [
     author: 'if found, nøll, damnboy!',
     cover:
       'https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/001/226/325x325/artificial-love-1665619239-sxwUa46qDD.jpg',
-    group: 'Las gallinas turulecas',
+    group: 'if found, nøll, damnboy!',
     year: 2022,
     album: 'NCS',
     genre: 'Trap',
@@ -140,7 +140,7 @@ export const SONGS: Song[] = [
       'https://linkstorage.linkfire.com/medialinks/images/764a0095-e74f-4806-b3e0-15060bd62d15/artwork-440x440.jpg',
     group: 'OVSKY, Mo Falk',
     year: 2022,
-    album: 'A lo loco',
+    album: 'NCS',
     genre: 'Future House',
     bpm: 241,
     length: 183,
@@ -150,9 +150,9 @@ export const SONGS: Song[] = [
     author: 'RUD, Elektronomia',
     cover:
       'https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/000/939/325x325/memory-1619686832-Y2Ge0fr9lo.jpg',
-    group: 'Las gallinas turulecas',
+    group: 'RUD, Elektronomia',
     year: 2022,
-    album: 'RUD, Elektronomia',
+    album: 'NCS',
     genre: 'Electronic',
     bpm: 287,
     length: 235,
@@ -162,7 +162,7 @@ export const SONGS: Song[] = [
     author: 'JPB',
     cover:
       'https://linkstorage.linkfire.com/medialinks/images/6a2ef43a-f1c9-4a6b-9efe-b71d22156380/artwork-440x440.jpg',
-    group: 'Las gallinas turulecas',
+    group: 'Long Night',
     year: 2022,
     album: 'NCS',
     genre: 'House',
