@@ -25,7 +25,7 @@
     </ul>
   </div>
 
-  <div class="song-player">
+  <div *ngIf="displaySong" class="song-player">
     <app-song [song]="song"></app-song>
     <app-player></app-player>
   </div>
