@@ -24,6 +24,8 @@ $black: black;
 // SCSS Styles
 .new-releases {
   background-color: $dark-gray;
+  min-height: 100vh;
+  min-width: calc(100vw - 270px);
 
   &__title {
     margin-top: 0px;
