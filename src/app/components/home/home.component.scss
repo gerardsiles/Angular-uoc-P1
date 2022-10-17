@@ -33,19 +33,19 @@ $black: black;
     padding-left: 18.75px;
 
     @include desktop {
-    width: 500px;
-    margin-left: 5%;
+      width: 500px;
+      margin-left: 5%;
     }
   }
 
   &__new-releases-section {
     @include desktop {
-    margin: 0 auto;
-    max-width: 90%;
-    padding-bottom: 60px;
+      margin: 0 auto;
+      max-width: 90%;
+      padding-bottom: 60px;
 
-    display: flex;
-    flex-wrap: wrap;
+      display: flex;
+      flex-wrap: wrap;
     }
   }
 }
