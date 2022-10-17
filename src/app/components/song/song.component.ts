@@ -13,6 +13,7 @@ import { Song } from './models/Song';
 export class SongComponent implements OnInit {
   public songTitle: string = '';
   @Input() song: Song;
+  firstSong: boolean = false;
 
   constructor(
     private activatedRoute: ActivatedRoute,
@@ -28,6 +29,7 @@ export class SongComponent implements OnInit {
   public getActivatedRoute(): void {
     this.activatedRoute.params.subscribe((params) => {
       this.songTitle = params['id'];
+
       console.log('Activated Route Id', params['id']);
     });
   }

@@ -12,6 +12,8 @@ export class NavBarComponent implements OnInit {
   public openSideBar: boolean = true;
   song: Song;
   subscription: Subscription;
+  public displaySong: boolean = false;
+  public counter: number = 0;
 
   constructor(private uiService: UiService) {}
 
@@ -19,6 +21,10 @@ export class NavBarComponent implements OnInit {
     this.uiService.songEventListener().subscribe((song) => {
       console.log('song from nav-bar: ' + JSON.stringify(song));
       this.song = song;
+      if (this.counter !== 0) {
+        this.displaySong = true;
+      }
+      this.counter++;
     });
   }
 
